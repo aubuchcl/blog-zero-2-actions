@@ -9,5 +9,5 @@ jobs:
         run: |
           curl https://api.dev.cycle.io/v1/pipelines/65429f7ed0208f30bb4ee3e8/trigger \
             -H "Content-Type: application/json" \
-            -d '{ \"secret\": \"secret_t3GpmrSFmr4b4Yi2tPeMQHES4qChrVTmRVcYBAM0xThUIWjuVzFxVip394um\" }' \
+            -d '{ "secret": "secret_t3GpmrSFmr4b4Yi2tPeMQHES4qChrVTmRVcYBAM0xThUIWjuVzFxVip394um" }' \
             -X POST
