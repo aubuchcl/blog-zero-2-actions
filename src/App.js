@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>7-11 day @ 7-11</p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          React is pretty cool if you use redux toolkit
+          Hello from React!
         </a>
       </header>
     </div>
