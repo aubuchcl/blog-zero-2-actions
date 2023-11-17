@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Reimage Pipeline Trigger
         run: |
-          curl https://api.cycle.io/v1/pipelines/6556b71a01a6cae886e36a9c/trigger \
+          curl https://api.dev.cycle.io/v1/pipelines/6556b71a01a6cae886e36a9c/trigger \
             -H "Content-Type: application/json" \
             -d '{ "secret": "secret_DSVJicXtRorj9JL6ww7YwpbScO4Xm3kDZEdKd1to1hSK539O4DzRoy6Fp2Ff" }' \
             -X POST
