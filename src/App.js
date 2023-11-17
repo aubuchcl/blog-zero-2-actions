@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Ive been updated.</p>
+        <p>Changes have been made </p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Hello from React, and Cycle!
+          Hello everyone
         </a>
       </header>
     </div>
